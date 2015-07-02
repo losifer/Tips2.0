@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="yrZ-g9-CMA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="yrZ-g9-CMA">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -87,6 +87,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1764705882" green="0.33333333329999998" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't be so cheap. You know you have a litte more to give!" textAlignment="center" lineBreakMode="clip" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2bZ-BU-hz5">
+                                <rect key="frame" x="16" y="281" width="288" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.84950780580026974" green="0.89586759868421051" blue="0.88061651065765045" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -99,6 +106,7 @@
                         <outlet property="billField" destination="5cn-Sz-3rd" id="8gW-Uk-gEL"/>
                         <outlet property="tipControl" destination="z4e-Bg-wXi" id="f6c-zK-RI4"/>
                         <outlet property="tipLabel" destination="u8Q-fp-9Md" id="gtf-7h-0BW"/>
+                        <outlet property="tipQuote" destination="2bZ-BU-hz5" id="alE-ha-ox7"/>
                         <outlet property="totalLabel" destination="69B-Ug-YIr" id="rkw-az-9el"/>
                         <outlet property="totalView" destination="aqe-jp-PhY" id="zZ4-Nd-i2j"/>
                     </connections>
@@ -122,7 +130,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.1764705882" green="0.73558285361842102" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.1764705882" green="0.33333333329999998" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.1764705882" green="0.33333333329999998" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.043971011513157895" green="0.32614617598684209" blue="0.21218919311145515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.84950780579999996" green="0.89586759869999999" blue="0.88061651070000002" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>

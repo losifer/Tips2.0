@@ -15,6 +15,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalView: UIView!
+    @IBOutlet weak var tipQuote: UILabel!
+    @IBOutlet weak var billFieldBackground: UIView!
     
     
     override func viewDidLoad() {
@@ -44,6 +46,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         var tipPercentages = [0.18, 0.2, 0.22]
         var tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
+        
+        if (tipControl.selectedSegmentIndex == 0) {
+            self.tipQuote.text = "Don't be so cheap. You know you have a litte more to give!"
+        } else if (tipControl.selectedSegmentIndex == 1) {
+            tipQuote.text = "So you thought the service was just average?"
+        } else if (tipControl.selectedSegmentIndex == 2) {
+            tipQuote.text = "Good on you! These people depend on your tips money bags!"
+        } else {
+            tipQuote.text = ""
+        }
         
         var billAmount = NSString(string: billField.text).doubleValue
         
