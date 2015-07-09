@@ -48,13 +48,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         
         if (tipControl.selectedSegmentIndex == 0) {
-            self.tipQuote.text = "Don't be so cheap. You know you have a litte more to give!"
+            self.tipQuote.text = "On a budget these days are we?"
         } else if (tipControl.selectedSegmentIndex == 1) {
-            tipQuote.text = "So you thought the service was just average?"
+            self.tipQuote.text = "Decent tip... No complaints."
         } else if (tipControl.selectedSegmentIndex == 2) {
-            tipQuote.text = "Good on you! These people depend on your tips money bags!"
+            tipQuote.text = "Nice Tip! You must be a baller."
         } else {
-            tipQuote.text = ""
+            self.tipQuote.text = ""
         }
         
         var billAmount = NSString(string: billField.text).doubleValue
