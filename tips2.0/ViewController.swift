@@ -50,9 +50,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if (tipControl.selectedSegmentIndex == 0) {
             self.tipQuote.text = "On a budget these days are we?"
         } else if (tipControl.selectedSegmentIndex == 1) {
-            self.tipQuote.text = "Decent tip... No complaints."
+            self.tipQuote.text = "Decent tip... \n No complaints."
         } else if (tipControl.selectedSegmentIndex == 2) {
-            tipQuote.text = "Nice Tip! You must be a baller."
+            tipQuote.text = "Nice Tip! \n You must be a baller."
         } else {
             self.tipQuote.text = ""
         }
