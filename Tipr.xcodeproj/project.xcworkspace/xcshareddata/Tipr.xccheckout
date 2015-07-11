@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4F18812-012A-4A5D-8F48-78A2D94BC6C8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tipr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1124251E70E574604E1AAE61A390F3C8C4EF53FE</key>
+		<string>https://github.com/losifer/tips2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tipr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1124251E70E574604E1AAE61A390F3C8C4EF53FE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/losifer/tips2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1124251E70E574604E1AAE61A390F3C8C4EF53FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1124251E70E574604E1AAE61A390F3C8C4EF53FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tips2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

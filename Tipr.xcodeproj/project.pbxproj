@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CD313D1B41DC8F0037897A /* tips2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CD313D1B41DC8F0037897A /* Tipr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD31411B41DC8F0037897A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CD31421B41DC8F0037897A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CD31441B41DC8F0037897A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		07CD313E1B41DC8F0037897A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07CD313D1B41DC8F0037897A /* tips2.0.app */,
+				07CD313D1B41DC8F0037897A /* Tipr.app */,
 				07CD31521B41DC900037897A /* tips2.0Tests.xctest */,
 			);
 			name = Products;
@@ -129,7 +129,7 @@
 			);
 			name = tips2.0;
 			productName = tips2.0;
-			productReference = 07CD313D1B41DC8F0037897A /* tips2.0.app */;
+			productReference = 07CD313D1B41DC8F0037897A /* Tipr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		07CD31511B41DC900037897A /* tips2.0Tests */ = {
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07CD31381B41DC8F0037897A /* Build configuration list for PBXProject "tips2.0" */;
+			buildConfigurationList = 07CD31381B41DC8F0037897A /* Build configuration list for PBXProject "Tipr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -346,7 +346,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipr;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -360,7 +360,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipr;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -379,7 +379,7 @@
 				);
 				INFOPLIST_FILE = tips2.0Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tips2.0Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips2.0.app/tips2.0";
 			};
 			name = Debug;
@@ -394,7 +394,7 @@
 				);
 				INFOPLIST_FILE = tips2.0Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tips2.0Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips2.0.app/tips2.0";
 			};
 			name = Release;
@@ -402,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07CD31381B41DC8F0037897A /* Build configuration list for PBXProject "tips2.0" */ = {
+		07CD31381B41DC8F0037897A /* Build configuration list for PBXProject "Tipr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07CD315A1B41DC900037897A /* Debug */,
