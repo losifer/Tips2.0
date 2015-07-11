@@ -56,7 +56,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         } else {
             self.tipQuote.text = ""
         }
-        
+
         var billAmount = NSString(string: billField.text).doubleValue
         
         var tip = billAmount * tipPercentage
@@ -71,6 +71,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     }
 
+    @IBAction func tipControl(sender: UISegmentedControl) {
+        view.endEditing(true)
+    }
+    
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }

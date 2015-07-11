@@ -64,7 +64,7 @@
                                 <color key="textColor" red="0.28235294119999998" green="0.44705882349999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="z4e-Bg-wXi">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" id="z4e-Bg-wXi">
                                 <rect key="frame" x="16" y="235" width="288" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
@@ -75,6 +75,7 @@
                                 <color key="tintColor" red="0.17647058823529413" green="0.33333333333333331" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="77S-ra-nXx"/>
+                                    <action selector="tipControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="w2W-40-Xqr"/>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" id="dAe-Ln-0Bf">
