@@ -1,6 +1,7 @@
 # Tip Calculator
 
-The basic calculator took about 1 hour
+The basic calculator took the total time of video (about 1hr)
+Located in this repo: https://github.com/losifer/tip-calculator
 
 # Additions to the app
 
