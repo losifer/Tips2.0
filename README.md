@@ -26,6 +26,6 @@ Overall the final app took about 9 - 10hrs.
 Built using Xcode 6.4
 
 
-<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-5s-upd.gif" alt="Screen Demo" width="480" />
+<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-5s-v2.gif" alt="Screen Demo" width="480" />
 
-<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-6.gif" alt="Screen Demo" width="567" />
+<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-6-v2.gif" alt="Screen Demo" width="567" />
