@@ -1,5 +1,11 @@
 # Tip Calculator
 
+Version 2.0 Updates:
+
+- Added interactive fade-in and motion to UI objects 
+
+- Added autolayout properties
+
 The basic calculator took the total time of video (about 1hr)
 Located in this repo: https://github.com/losifer/tip-calculator
 
@@ -20,4 +26,6 @@ Overall the final app took about 9 - 10hrs.
 Built using Xcode 6.4
 
 
-<img src="https://github.com/losifer/tips2/blob/master/Tipr.gif" alt="Screen Demo" width="350" />
+<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-5s-v2.gif" alt="Screen Demo" width="480" />
+
+<img src="https://github.com/losifer/tips2/blob/tips2-autolayout/Tipr-6-v2.gif" alt="Screen Demo" width="567" />
