@@ -101,6 +101,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func tipControl(sender: UISegmentedControl) {
         view.endEditing(true)
+        
     }
     
     @IBAction func onTap(sender: AnyObject) {
